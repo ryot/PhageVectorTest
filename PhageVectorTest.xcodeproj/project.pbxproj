@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0F5DE919252DBE00D21189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5DE819252DBE00D21189 /* Foundation.framework */; };
+		FA0F5DEB19252DBE00D21189 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5DEA19252DBE00D21189 /* CoreGraphics.framework */; };
+		FA0F5DED19252DBE00D21189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5DEC19252DBE00D21189 /* UIKit.framework */; };
+		FA0F5DEF19252DBE00D21189 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5DEE19252DBE00D21189 /* SpriteKit.framework */; };
+		FA0F5DF519252DBE00D21189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA0F5DF319252DBE00D21189 /* InfoPlist.strings */; };
+		FA0F5DF719252DBE00D21189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5DF619252DBE00D21189 /* main.m */; };
+		FA0F5DFB19252DBE00D21189 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5DFA19252DBE00D21189 /* RTAppDelegate.m */; };
+		FA0F5DFE19252DBE00D21189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0F5DFC19252DBE00D21189 /* Main.storyboard */; };
+		FA0F5E0119252DBE00D21189 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5E0019252DBE00D21189 /* RTViewController.m */; };
+		FA0F5E0419252DBE00D21189 /* RTMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5E0319252DBE00D21189 /* RTMyScene.m */; };
+		FA0F5E0619252DBE00D21189 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0F5E0519252DBE00D21189 /* Spaceship.png */; };
+		FA0F5E0819252DBE00D21189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0F5E0719252DBE00D21189 /* Images.xcassets */; };
+		FA0F5E0F19252DBE00D21189 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5E0E19252DBE00D21189 /* XCTest.framework */; };
+		FA0F5E1019252DBE00D21189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5DE819252DBE00D21189 /* Foundation.framework */; };
+		FA0F5E1119252DBE00D21189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F5DEC19252DBE00D21189 /* UIKit.framework */; };
+		FA0F5E1919252DBE00D21189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA0F5E1719252DBE00D21189 /* InfoPlist.strings */; };
+		FA0F5E1B19252DBE00D21189 /* PhageVectorTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5E1A19252DBE00D21189 /* PhageVectorTestTests.m */; };
+		FA0F5E2619252E6500D21189 /* RTPhage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5E2519252E6500D21189 /* RTPhage.m */; };
+		FA0F5E2919252E6F00D21189 /* RTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5E2819252E6F00D21189 /* RTCell.m */; };
+		FA0F5E2C1925651900D21189 /* RTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F5E2B1925651900D21189 /* RTPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0F5E1219252DBE00D21189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0F5DDD19252DBE00D21189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0F5DE419252DBE00D21189;
+			remoteInfo = PhageVectorTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0F5DE519252DBE00D21189 /* PhageVectorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhageVectorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F5DE819252DBE00D21189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA0F5DEA19252DBE00D21189 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA0F5DEC19252DBE00D21189 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA0F5DEE19252DBE00D21189 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FA0F5DF219252DBE00D21189 /* PhageVectorTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhageVectorTest-Info.plist"; sourceTree = "<group>"; };
+		FA0F5DF419252DBE00D21189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA0F5DF619252DBE00D21189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0F5DF819252DBE00D21189 /* PhageVectorTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhageVectorTest-Prefix.pch"; sourceTree = "<group>"; };
+		FA0F5DF919252DBE00D21189 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		FA0F5DFA19252DBE00D21189 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		FA0F5DFD19252DBE00D21189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0F5DFF19252DBE00D21189 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		FA0F5E0019252DBE00D21189 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		FA0F5E0219252DBE00D21189 /* RTMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMyScene.h; sourceTree = "<group>"; };
+		FA0F5E0319252DBE00D21189 /* RTMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMyScene.m; sourceTree = "<group>"; };
+		FA0F5E0519252DBE00D21189 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FA0F5E0719252DBE00D21189 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA0F5E0D19252DBE00D21189 /* PhageVectorTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhageVectorTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F5E0E19252DBE00D21189 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA0F5E1619252DBE00D21189 /* PhageVectorTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhageVectorTestTests-Info.plist"; sourceTree = "<group>"; };
+		FA0F5E1819252DBE00D21189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA0F5E1A19252DBE00D21189 /* PhageVectorTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhageVectorTestTests.m; sourceTree = "<group>"; };
+		FA0F5E2419252E6500D21189 /* RTPhage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPhage.h; sourceTree = "<group>"; };
+		FA0F5E2519252E6500D21189 /* RTPhage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPhage.m; sourceTree = "<group>"; };
+		FA0F5E2719252E6F00D21189 /* RTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCell.h; sourceTree = "<group>"; };
+		FA0F5E2819252E6F00D21189 /* RTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCell.m; sourceTree = "<group>"; };
+		FA0F5E2A1925651900D21189 /* RTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPlayer.h; sourceTree = "<group>"; };
+		FA0F5E2B1925651900D21189 /* RTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0F5DE219252DBE00D21189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F5DEB19252DBE00D21189 /* CoreGraphics.framework in Frameworks */,
+				FA0F5DED19252DBE00D21189 /* UIKit.framework in Frameworks */,
+				FA0F5DEF19252DBE00D21189 /* SpriteKit.framework in Frameworks */,
+				FA0F5DE919252DBE00D21189 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0F5E0A19252DBE00D21189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F5E0F19252DBE00D21189 /* XCTest.framework in Frameworks */,
+				FA0F5E1119252DBE00D21189 /* UIKit.framework in Frameworks */,
+				FA0F5E1019252DBE00D21189 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0F5DDC19252DBE00D21189 = {
+			isa = PBXGroup;
+			children = (
+				FA0F5DF019252DBE00D21189 /* PhageVectorTest */,
+				FA0F5E1419252DBE00D21189 /* PhageVectorTestTests */,
+				FA0F5DE719252DBE00D21189 /* Frameworks */,
+				FA0F5DE619252DBE00D21189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0F5DE619252DBE00D21189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F5DE519252DBE00D21189 /* PhageVectorTest.app */,
+				FA0F5E0D19252DBE00D21189 /* PhageVectorTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0F5DE719252DBE00D21189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F5DE819252DBE00D21189 /* Foundation.framework */,
+				FA0F5DEA19252DBE00D21189 /* CoreGraphics.framework */,
+				FA0F5DEC19252DBE00D21189 /* UIKit.framework */,
+				FA0F5DEE19252DBE00D21189 /* SpriteKit.framework */,
+				FA0F5E0E19252DBE00D21189 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0F5DF019252DBE00D21189 /* PhageVectorTest */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F5DF919252DBE00D21189 /* RTAppDelegate.h */,
+				FA0F5DFA19252DBE00D21189 /* RTAppDelegate.m */,
+				FA0F5DFC19252DBE00D21189 /* Main.storyboard */,
+				FA0F5DFF19252DBE00D21189 /* RTViewController.h */,
+				FA0F5E0019252DBE00D21189 /* RTViewController.m */,
+				FA0F5E0219252DBE00D21189 /* RTMyScene.h */,
+				FA0F5E0319252DBE00D21189 /* RTMyScene.m */,
+				FA0F5E2419252E6500D21189 /* RTPhage.h */,
+				FA0F5E2519252E6500D21189 /* RTPhage.m */,
+				FA0F5E2719252E6F00D21189 /* RTCell.h */,
+				FA0F5E2819252E6F00D21189 /* RTCell.m */,
+				FA0F5E2A1925651900D21189 /* RTPlayer.h */,
+				FA0F5E2B1925651900D21189 /* RTPlayer.m */,
+				FA0F5E0519252DBE00D21189 /* Spaceship.png */,
+				FA0F5E0719252DBE00D21189 /* Images.xcassets */,
+				FA0F5DF119252DBE00D21189 /* Supporting Files */,
+			);
+			path = PhageVectorTest;
+			sourceTree = "<group>";
+		};
+		FA0F5DF119252DBE00D21189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F5DF219252DBE00D21189 /* PhageVectorTest-Info.plist */,
+				FA0F5DF319252DBE00D21189 /* InfoPlist.strings */,
+				FA0F5DF619252DBE00D21189 /* main.m */,
+				FA0F5DF819252DBE00D21189 /* PhageVectorTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA0F5E1419252DBE00D21189 /* PhageVectorTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F5E1A19252DBE00D21189 /* PhageVectorTestTests.m */,
+				FA0F5E1519252DBE00D21189 /* Supporting Files */,
+			);
+			path = PhageVectorTestTests;
+			sourceTree = "<group>";
+		};
+		FA0F5E1519252DBE00D21189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F5E1619252DBE00D21189 /* PhageVectorTestTests-Info.plist */,
+				FA0F5E1719252DBE00D21189 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0F5DE419252DBE00D21189 /* PhageVectorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0F5E1E19252DBE00D21189 /* Build configuration list for PBXNativeTarget "PhageVectorTest" */;
+			buildPhases = (
+				FA0F5DE119252DBE00D21189 /* Sources */,
+				FA0F5DE219252DBE00D21189 /* Frameworks */,
+				FA0F5DE319252DBE00D21189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhageVectorTest;
+			productName = PhageVectorTest;
+			productReference = FA0F5DE519252DBE00D21189 /* PhageVectorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0F5E0C19252DBE00D21189 /* PhageVectorTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0F5E2119252DBE00D21189 /* Build configuration list for PBXNativeTarget "PhageVectorTestTests" */;
+			buildPhases = (
+				FA0F5E0919252DBE00D21189 /* Sources */,
+				FA0F5E0A19252DBE00D21189 /* Frameworks */,
+				FA0F5E0B19252DBE00D21189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0F5E1319252DBE00D21189 /* PBXTargetDependency */,
+			);
+			name = PhageVectorTestTests;
+			productName = PhageVectorTestTests;
+			productReference = FA0F5E0D19252DBE00D21189 /* PhageVectorTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0F5DDD19252DBE00D21189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryo Tulman";
+				TargetAttributes = {
+					FA0F5E0C19252DBE00D21189 = {
+						TestTargetID = FA0F5DE419252DBE00D21189;
+					};
+				};
+			};
+			buildConfigurationList = FA0F5DE019252DBE00D21189 /* Build configuration list for PBXProject "PhageVectorTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0F5DDC19252DBE00D21189;
+			productRefGroup = FA0F5DE619252DBE00D21189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0F5DE419252DBE00D21189 /* PhageVectorTest */,
+				FA0F5E0C19252DBE00D21189 /* PhageVectorTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0F5DE319252DBE00D21189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F5DF519252DBE00D21189 /* InfoPlist.strings in Resources */,
+				FA0F5E0819252DBE00D21189 /* Images.xcassets in Resources */,
+				FA0F5E0619252DBE00D21189 /* Spaceship.png in Resources */,
+				FA0F5DFE19252DBE00D21189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0F5E0B19252DBE00D21189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F5E1919252DBE00D21189 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0F5DE119252DBE00D21189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F5E0419252DBE00D21189 /* RTMyScene.m in Sources */,
+				FA0F5E2C1925651900D21189 /* RTPlayer.m in Sources */,
+				FA0F5E2619252E6500D21189 /* RTPhage.m in Sources */,
+				FA0F5DFB19252DBE00D21189 /* RTAppDelegate.m in Sources */,
+				FA0F5E0119252DBE00D21189 /* RTViewController.m in Sources */,
+				FA0F5DF719252DBE00D21189 /* main.m in Sources */,
+				FA0F5E2919252E6F00D21189 /* RTCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0F5E0919252DBE00D21189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0F5E1B19252DBE00D21189 /* PhageVectorTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0F5E1319252DBE00D21189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0F5DE419252DBE00D21189 /* PhageVectorTest */;
+			targetProxy = FA0F5E1219252DBE00D21189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA0F5DF319252DBE00D21189 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0F5DF419252DBE00D21189 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA0F5DFC19252DBE00D21189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0F5DFD19252DBE00D21189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0F5E1719252DBE00D21189 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0F5E1819252DBE00D21189 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA0F5E1C19252DBE00D21189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA0F5E1D19252DBE00D21189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0F5E1F19252DBE00D21189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhageVectorTest/PhageVectorTest-Prefix.pch";
+				INFOPLIST_FILE = "PhageVectorTest/PhageVectorTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA0F5E2019252DBE00D21189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhageVectorTest/PhageVectorTest-Prefix.pch";
+				INFOPLIST_FILE = "PhageVectorTest/PhageVectorTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA0F5E2219252DBE00D21189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhageVectorTest.app/PhageVectorTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhageVectorTest/PhageVectorTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhageVectorTestTests/PhageVectorTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA0F5E2319252DBE00D21189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhageVectorTest.app/PhageVectorTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhageVectorTest/PhageVectorTest-Prefix.pch";
+				INFOPLIST_FILE = "PhageVectorTestTests/PhageVectorTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0F5DE019252DBE00D21189 /* Build configuration list for PBXProject "PhageVectorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0F5E1C19252DBE00D21189 /* Debug */,
+				FA0F5E1D19252DBE00D21189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0F5E1E19252DBE00D21189 /* Build configuration list for PBXNativeTarget "PhageVectorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0F5E1F19252DBE00D21189 /* Debug */,
+				FA0F5E2019252DBE00D21189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA0F5E2119252DBE00D21189 /* Build configuration list for PBXNativeTarget "PhageVectorTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0F5E2219252DBE00D21189 /* Debug */,
+				FA0F5E2319252DBE00D21189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0F5DDD19252DBE00D21189 /* Project object */;
+}
